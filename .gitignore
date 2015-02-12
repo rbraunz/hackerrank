@@ -17,7 +17,6 @@ build/
 [Oo]bj/
 [Aa]reas/
 Outputs/
-MSBuild/AssemblyInfo.proj
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

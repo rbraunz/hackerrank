@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyInteger", "LonelyInte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDigits", "FindDigits\FindDigits.csproj", "{DFB56A57-B376-403F-A468-860E61BE5F06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximizingXor", "MaximizingXor\MaximizingXor.csproj", "{7C4D811E-527B-4C2B-BA55-3CD4B7F7B0CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{DFB56A57-B376-403F-A468-860E61BE5F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFB56A57-B376-403F-A468-860E61BE5F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB56A57-B376-403F-A468-860E61BE5F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4D811E-527B-4C2B-BA55-3CD4B7F7B0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4D811E-527B-4C2B-BA55-3CD4B7F7B0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4D811E-527B-4C2B-BA55-3CD4B7F7B0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4D811E-527B-4C2B-BA55-3CD4B7F7B0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

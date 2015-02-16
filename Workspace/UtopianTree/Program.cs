@@ -11,7 +11,7 @@ namespace UtopianTree
         static void Main(string[] args)
         {
             int size = Convert.ToInt32(Console.ReadLine());
-            Int64[] incomingInts = new Int64[size];
+            long[] incomingInts = new long[size];
             for (int i = 0; i < size; i++)
             {
                 var input = Convert.ToInt64(Console.ReadLine());
@@ -25,14 +25,14 @@ namespace UtopianTree
             Console.ReadLine();
         }
 
-        private static Int64[] CalculateGrowth(Int64[] cycleCounts)
+        private static long[] CalculateGrowth(long[] cycleCounts)
         {
             return cycleCounts.Select(c => CalculateGrowth(c)).ToArray();
         }
 
-        private static Int64 CalculateGrowth(Int64 cycleCount)
+        private static long CalculateGrowth(long cycleCount)
         {
-            Int64 treeHeight = 1;
+            long treeHeight = 1;
             var season = true;
 
             for (int i = 0; i < cycleCount; i++)
@@ -44,7 +44,7 @@ namespace UtopianTree
             return treeHeight;
         }
 
-        private static Int64 GrowTree(Int64 initialHeight, bool season)
+        private static long GrowTree(long initialHeight, bool season)
         {
             return season ? initialHeight * 2 : initialHeight + 1;
         }

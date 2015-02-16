@@ -14,7 +14,7 @@ namespace Workspace
         {
 
             int size = Convert.ToInt32(Console.ReadLine());
-            Int64[] incomingInts = new Int64[size];
+            long[] incomingInts = new long[size];
             for (int i = 0; i < size; i++)
             {
                 var input = Convert.ToInt64(Console.ReadLine());
@@ -34,11 +34,11 @@ namespace Workspace
             Console.ReadLine();
         }
 
-        private static bool IsFibo(Int64 input, Int64 a = 1, Int64 b = 1)
+        private static bool IsFibo(long input, long a = 1, long b = 1)
         {
             if (input == 0 || input == 1)
                 return true;
-            Int64 nextFib = a + b;
+            long nextFib = a + b;
             if (nextFib > input)
                 return false;
             else if (nextFib == input)

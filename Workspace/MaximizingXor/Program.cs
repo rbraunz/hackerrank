@@ -10,21 +10,21 @@ namespace MaximizingXor
     {
         static void Main(string[] args)
         {
-            Int64 res;
-            Int64 _l;
+            long res;
+            long _l;
             _l = Convert.ToInt64(Console.ReadLine());
 
-            Int64 _r;
+            long _r;
             _r = Convert.ToInt32(Console.ReadLine());
 
             res = maxXor(_l, _r);
             Console.WriteLine(res);
         }
 
-        private static Int64 maxXor(Int64 l, Int64 r)
+        private static long maxXor(long l, long r)
         {
-            Int64 max = 1;
-            Int64 xorValue = l ^ r;
+            long max = 1;
+            long xorValue = l ^ r;
             while (xorValue > 0)
             {
                 max <<= 1;

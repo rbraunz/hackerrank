@@ -12,7 +12,7 @@ namespace FlippingBits
         static void Main(string[] args)
         {
             int size = Convert.ToInt32(Console.ReadLine());
-            Int64[] incomingInts = new Int64[size];
+            long[] incomingInts = new long[size];
             for (int i = 0; i < size; i++)
             {
                 var input = Convert.ToInt64(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace FlippingBits
             Console.ReadLine();
         }
 
-        private static uint FlippingBits(Int64 decimalNumber)
+        private static uint FlippingBits(long decimalNumber)
         {
             //var binaryNumber = DecimalToBinary(decimalNumber);
             var b = DecimalToBitArray(decimalNumber);
@@ -45,7 +45,7 @@ namespace FlippingBits
             return res;
         }
 
-        private static BitArray DecimalToBitArray(Int64 decimalNumber)
+        private static BitArray DecimalToBitArray(long decimalNumber)
         {
             var bytes =System.BitConverter.GetBytes(decimalNumber);
             BitArray b = new BitArray(bytes);

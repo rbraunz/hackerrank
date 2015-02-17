@@ -9,6 +9,7 @@ namespace FiboModified
 {
     class Program
     {
+        private static int _termSought;
 
         static void Main(string[] args)
         {
@@ -20,16 +21,17 @@ namespace FiboModified
                 intArray[i] = Convert.ToInt16(element);
                 i++;
             }
-            Console.Write(ComputeNthTerm(intArray[0], intArray[1], 2, intArray[2]).ToString());
+            _termSought = intArray[2];
+            Console.Write(ComputeNthTerm(intArray[0], intArray[1], 2).ToString());
         }
 
-        private static BigInteger ComputeNthTerm(BigInteger termA, BigInteger termB, int currentTerm, int termSought)
+        private static BigInteger ComputeNthTerm(BigInteger termA, BigInteger termB, int currentTerm)
         {
-            if (!Equals(currentTerm, termSought))
+            if (Equals(currentTerm, _termSought))
             {
                 var nextTerm = BigInteger.Add((BigInteger.Pow(termB, 2)),  termA);
                 //Console.WriteLine("Term T(n+1)^2: " + termB + " Term T(n): " + termA + " Current Term: " + currentTerm);
-                return ComputeNthTerm(termB, nextTerm, currentTerm + 1, termSought);
+                return ComputeNthTerm(termB, nextTerm, currentTerm + 1);
             }
             else
             {

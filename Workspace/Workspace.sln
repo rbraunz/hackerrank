@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiboModifiedNonRecursive", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingTowns", "ConnectingTowns\ConnectingTowns.csproj", "{8A6236E6-A47E-45E9-B7DD-99EB55A02EB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMaximize", "StockMaximize\StockMaximize.csproj", "{2317068F-35A1-435C-8983-84C79112C89D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{8A6236E6-A47E-45E9-B7DD-99EB55A02EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A6236E6-A47E-45E9-B7DD-99EB55A02EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A6236E6-A47E-45E9-B7DD-99EB55A02EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2317068F-35A1-435C-8983-84C79112C89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2317068F-35A1-435C-8983-84C79112C89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2317068F-35A1-435C-8983-84C79112C89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2317068F-35A1-435C-8983-84C79112C89D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

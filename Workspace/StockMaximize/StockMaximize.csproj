@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>8933dafd-7b9b-46d0-b0b7-3f8657c96610</ProjectGuid>
+    <ProjectGuid>{2317068F-35A1-435C-8983-84C79112C89D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StockMaximize</RootNamespace>

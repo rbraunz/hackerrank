@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingTowns", "Connecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMaximize", "StockMaximize\StockMaximize.csproj", "{2317068F-35A1-435C-8983-84C79112C89D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryChildren2", "AngryChildren2\AngryChildren2.csproj", "{751E4C17-A2DC-4A19-888D-260C973ADDAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler063", "Euler063\Euler063.csproj", "{D23671A8-E69C-4055-8A99-483E5F9BC466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,14 @@ Global
 		{2317068F-35A1-435C-8983-84C79112C89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2317068F-35A1-435C-8983-84C79112C89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2317068F-35A1-435C-8983-84C79112C89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751E4C17-A2DC-4A19-888D-260C973ADDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751E4C17-A2DC-4A19-888D-260C973ADDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751E4C17-A2DC-4A19-888D-260C973ADDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751E4C17-A2DC-4A19-888D-260C973ADDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23671A8-E69C-4055-8A99-483E5F9BC466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23671A8-E69C-4055-8A99-483E5F9BC466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23671A8-E69C-4055-8A99-483E5F9BC466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23671A8-E69C-4055-8A99-483E5F9BC466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

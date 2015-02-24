@@ -22,6 +22,7 @@ namespace Euler006
                 ulong result = SumOfSquares(n) * SumOfSquares(n) - SumOfNaturalNumbers(n);
                 Console.WriteLine(result);
             }
+
         }
 
         private static ulong SumOfSquares(ulong n)

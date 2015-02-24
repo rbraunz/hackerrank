@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler002", "Euler002\Euler0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler003", "Euler003\Euler003.csproj", "{F7BF7EE4-1204-4E8C-83A2-B5CD38D86665}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler004", "Euler004\Euler004.csproj", "{6417CE1E-DC9E-4FAE-8FA4-BFCE67704D74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{F7BF7EE4-1204-4E8C-83A2-B5CD38D86665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7BF7EE4-1204-4E8C-83A2-B5CD38D86665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7BF7EE4-1204-4E8C-83A2-B5CD38D86665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6417CE1E-DC9E-4FAE-8FA4-BFCE67704D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6417CE1E-DC9E-4FAE-8FA4-BFCE67704D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6417CE1E-DC9E-4FAE-8FA4-BFCE67704D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6417CE1E-DC9E-4FAE-8FA4-BFCE67704D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

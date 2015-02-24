@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FindDigits
 {
-    class Program
+    class FindDigits
     {
         static void Main(string[] args)
         {

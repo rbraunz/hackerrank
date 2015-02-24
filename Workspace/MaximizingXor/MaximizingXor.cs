@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MaximizingXor
 {
-    class Program
+    class MaximizingXor
     {
         static void Main(string[] args)
         {

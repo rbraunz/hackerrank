@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EvenTree
 {
-    class Program
+    class EvenTree
     {
         private static void Main(string[] args)
         {

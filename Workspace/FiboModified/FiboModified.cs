@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FiboModified
 {
-    class Program
+    class FiboModified
     {
         private static int _termSought;
 

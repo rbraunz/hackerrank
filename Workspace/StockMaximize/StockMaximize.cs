@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockMaximize
 {
-    class Program
+    class StockMaximize
     {
         static void Main(string[] args)
         {

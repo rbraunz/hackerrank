@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CorrectnessAndTheLoopInvariant
 {
-    class Program
+    class CorrectnessAndTheLoopInvariant
     {
         public static int[] insertionSort(int[] A)
         {

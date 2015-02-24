@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConnectingTowns
 {
-    class Program
+    class ConnectingTowns
     {
         static void Main(string[] args)
         {

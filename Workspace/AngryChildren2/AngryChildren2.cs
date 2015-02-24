@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AngryChildren2
 {
-    class Program
+    class AngryChildren2
     {
         private static int[] mySet;
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UtopianTree
 {
-    class Program
+    class UtopianTree
     {
         static void Main(string[] args)
         {

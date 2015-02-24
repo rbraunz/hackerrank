@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FlippingBits
 {
-    class Program
+    class FlippingBits
     {
         static void Main(string[] args)
         {

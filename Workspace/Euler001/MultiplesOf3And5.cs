@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Numerics;
 namespace Euler001
 {
-    class Program
+    class MultiplesOf3And5
     {
         static void Main(string[] args)
         {

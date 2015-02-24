@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SortingTutorial
 {
-    class Program
+    class SortingTutorial
     {
 
         private int _count; 

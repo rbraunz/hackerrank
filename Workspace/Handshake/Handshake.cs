@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Handshake
 {
-    internal class Program
+    internal class Handshake
     {
         private static void Main(string[] args)
         {

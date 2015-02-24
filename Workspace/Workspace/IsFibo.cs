@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Workspace
 {
-    class Solution
+    class IsFibo
     {
 
         private static void Main(string[] args)

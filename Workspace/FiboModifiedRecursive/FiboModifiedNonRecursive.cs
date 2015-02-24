@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FiboModifiedRecursive
 {
-    class Program
+    class FiboModifiedNonRecursive
     {
         static void Main(String[] args)
         {

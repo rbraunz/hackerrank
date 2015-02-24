@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AlternatingCharacters
 {
-    class Program
+    class AlternatingCharacters
     {
         static void Main(string[] args)
         {

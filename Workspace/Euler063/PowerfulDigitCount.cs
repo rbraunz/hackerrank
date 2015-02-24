@@ -7,7 +7,7 @@ using System.Numerics;
 
 namespace Euler063
 {
-    class Program
+    class PowerfulDigitCount
     {
         static void Main(string[] args)
         {

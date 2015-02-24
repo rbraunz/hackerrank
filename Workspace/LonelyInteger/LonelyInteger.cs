@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LonelyInteger
 {
-    class Program
+    class LonelyInteger
     {
         static void Main(string[] args)
         {

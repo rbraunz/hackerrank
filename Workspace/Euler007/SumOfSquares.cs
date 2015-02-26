@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Euler007
 {
-    internal class Program
+    internal class SumOfSquares
     {
 
         private static void Main(string[] args)
